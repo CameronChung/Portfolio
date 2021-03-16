@@ -1,0 +1,265 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5em;
+    letter-spacing: 7px;
+    color: white;
+    padding-top: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*mouse hover pink change*/
+b{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: 7px;
+    color: white;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 0.5em;
+    letter-spacing: 7px;
+    color: white;
+}
+
+
+h1{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 2em;
+    letter-spacing: 7px;
+    color: white;
+}
+
+
+h2{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5em;
+    letter-spacing: 7px;
+    color: white;
+}
+
+/*highlighted pink bookmark*/
+h3{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: 7px;
+    color: pink;
+}
+
+/*descriptions*/
+h4{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: 7px;
+    color: white;
+}
+
+img{
+    padding-top: 50px;
+    text-align:center;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    max-height: 875px;
+}
+
+/*mouse hover highlighted size change (text)*/
+b.hover {
+    font-size: 150%;
+}
+
+/*glow effect for title*/
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+/*end of glow effect*/
+
+/*contact page css*/
+.contact-title{
+    margin-top: 100px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.contact-title h1{
+    font size: 32px;
+    line-height: 10px;
+}
+
+.contact-title h2{
+    font-size: 18px;
+}
+
+form{
+    margin-top: 50px;
+}
+
+.form-control{
+    width: 800px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+/*button: same characteristics of form control above*/
+.button-control{
+    width: 200px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+/*for Gallery button links*/
+.button-control2{
+    width: 800px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+/*submit button highlight hover*/
+.button-control:hover{
+    background-color: pink;
+    cursor: pointer;
+}
+
+/*Gallery button highlight hover*/
+.button-control2:hover{
+    background-color: pink;
+    cursor: pointer;
+}
+
+.top_bar{
+    max-height: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo {
+    display: block;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 150px;
+    margin: auto;
+}
+
+.container
+{
+    padding-top: 50px;
+    max-width: 80vw;
+    margin: auto;
+}
+
+/*Portfolio image gallery setup page*/
+* {
+  box-sizing: border-box;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+/* two columns for gallery viewing*/
+.columnGallery {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+/*three columns for gallery viewing*/
+.columnGallery3 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 33.33%;
+  padding: 0 4px;
+}
+
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  padding: 0 4px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 4px;
+  }
+}
+/*end of portfolio image gallery code*/
