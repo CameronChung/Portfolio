@@ -205,7 +205,7 @@ form{
 }
 
 /* circular image code */
-.circular--portrait { 
+/* .circular--portrait { 
   position: relative; 
   width: 200px; 
   height: 200px; 
@@ -216,7 +216,7 @@ form{
 .circular--portrait img { 
   width: 100%; 
   height: auto; 
-}
+} */
 /* end of circular image code */
 
 
