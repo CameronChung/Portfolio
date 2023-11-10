@@ -204,7 +204,12 @@ form{
     margin: auto;
 }
 
-clip-path: circle();
+.circular_img {
+  height: 100px;
+  width: 100px;
+  clip-path: circle();
+}
+
 
 
 /* circular image code */
