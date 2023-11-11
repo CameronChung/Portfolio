@@ -19,9 +19,19 @@ b{
     text-align: center;
     font-weight: 300;
     font-size: 1em;
-    letter-spacing: 7px;
+    letter-spacing: 5px;
     color: white;
 }
+
+g{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1em;
+  letter-spacing: 5px;
+  color: white;
+}
+
 
 p{
     font-family: 'Lato', sans-serif;
